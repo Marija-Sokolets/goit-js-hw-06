@@ -13,7 +13,7 @@ const images = [
   },
 ];
 
-const listImg = document.querySelector(".gallery");
+const listImg = document.getElementsByClassName("gallery")[0];
 
 listImg.style.display = "flax";
 listImg.style.margin = "0, auto";
@@ -25,4 +25,4 @@ listImg.insertAdjacentHTML("beforeend", linkImg);
 
 
 console.log(linkImg);
-document.body.appendChild(listImg);
+
